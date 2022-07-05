@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+	/* Colors */
+	--bg-gradient-violet: hsl(273, 75%, 66%);
+	--bg-gradient-blue: hsl(240, 73%, 65%);
+	--text-desaturated: hsl(238, 29%, 16%);
+	--text-soft-orange: hsl(14, 88%, 65%);
+	--text-very-dark-gray: hsl(237, 12%, 33%);
+	--text-dark-gray: hsl(240, 6%, 50%);
+	--divider-light-gray: hsl(240, 5%, 91%);
+
+	/* Typography */
+	--large-title: 23px;
+	--small-title: 16px;
+	--body-copy: 12px;
+}
+
+* {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Kumbh Sans", sans-serif;
+}
+
+h1 {
+	font-size: var(--large-title);
+	font-weight: 700;
+}
+
+h2 {
+	font-size: var(--small-title);
+	transition: all 0.1s ease-out;
+	cursor: pointer;
+	font-weight: 400;
+	color: var(--text-desaturated);
+}
+
+h2:hover {
+	color: var(--text-soft-orange);
+}
+
+p {
+	font-size: var(--body-copy);
+	color: var(--text-dark-gray);
+}
+
+hr {
+	color: var(--divider-light-gray);
+}
+
+.bg {
+	background-image: linear-gradient(
+		var(--bg-gradient-violet),
+		var(--bg-gradient-blue)
+	);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+}
+
+.card-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* background-color: white;
+	border-radius: 15px; */
+}
