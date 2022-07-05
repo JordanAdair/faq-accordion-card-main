@@ -11,8 +11,8 @@
 	--divider-light-gray: hsl(240, 5%, 91%);
 
 	/* Typography */
-	--large-title: 23px;
-	--small-title: 16px;
+	--large-title: 29px;
+	--small-title: 14px;
 	--body-copy: 12px;
 }
 
@@ -21,11 +21,13 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Kumbh Sans", sans-serif;
+	min-height: fit-content;
 }
 
 h1 {
 	font-size: var(--large-title);
 	font-weight: 700;
+	color: var(--text-very-dark-gray);
 }
 
 h2 {
@@ -43,10 +45,13 @@ h2:hover {
 p {
 	font-size: var(--body-copy);
 	color: var(--text-dark-gray);
+	display: none;
 }
 
 hr {
 	color: var(--divider-light-gray);
+	width: 90%;
+	opacity: 25%;
 }
 
 .bg {
@@ -60,9 +65,36 @@ hr {
 }
 
 .card-container {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	/* background-color: white;
-	border-radius: 15px; */
+	background-color: white;
+	border-radius: 25px;
+	width: 75%;
+	height: 70%;
+	margin-top: 9rem;
+	filter: drop-shadow(0 1rem 0.8rem rgba(0, 0, 0, 0.33));
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid red;
+}
+
+.illustration-container {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid red;
+}
+
+.illustration {
+	width: min(50vw, 25rem);
+	margin-top: -10rem;
+}
+
+.illustration-bg {
+	width: min(50vw, 25rem);
+	margin-top: -30%;
 }
