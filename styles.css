@@ -74,7 +74,6 @@ hr {
 	background-color: white;
 	border-radius: 25px;
 	width: min(95vw, 24rem);
-	margin-top: 33%;
 	filter: drop-shadow(0 1rem 0.8rem rgba(0, 0, 0, 0.33));
 }
 
@@ -155,19 +154,18 @@ hr {
 	display: none;
 }
 
+/* Box */
+
+.box-container {
+	margin-top: 33%;
+}
+
 .box {
 	display: none;
 }
 
 /* Desktop */
 @media screen and (min-width: 1200px) {
-	/* Box */
-	.box-container {
-		position: relative;
-		width: min(80vw, 60rem);
-		height: min(60vh, 32rem);
-	}
-
 	/* Card */
 	.card-container {
 		overflow: hidden;
@@ -176,7 +174,6 @@ hr {
 		flex-direction: row;
 		width: min(80vw, 60rem);
 		height: min(70vh, 33rem);
-		margin-top: 10%;
 	}
 
 	.main-container {
@@ -213,6 +210,15 @@ hr {
 		width: 48rem;
 		margin-left: -48.5rem;
 		margin-top: -5rem;
+	}
+
+	/* Box */
+	.box-container {
+		position: relative;
+		width: min(80vw, 60rem);
+		height: min(60vh, 32rem);
+		border: 1px solid red;
+		margin-top: 10%;
 	}
 
 	.box {
