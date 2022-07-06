@@ -50,6 +50,7 @@ hr {
 		var(--bg-gradient-violet),
 		var(--bg-gradient-blue)
 	);
+	background-size: 100%;
 }
 
 /* Card */
