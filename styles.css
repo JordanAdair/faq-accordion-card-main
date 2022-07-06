@@ -160,7 +160,7 @@ hr {
 }
 
 /* Desktop */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
 	/* Box */
 	.box-container {
 		position: relative;
