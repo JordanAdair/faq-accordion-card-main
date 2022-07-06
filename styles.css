@@ -218,8 +218,9 @@ hr {
 	.box {
 		display: block;
 		position: absolute;
-		top: 12.3rem;
-		left: -8rem;
+		top: 13rem;
+		left: -7rem;
 		z-index: 99;
+		filter: drop-shadow(0 1rem 0.8rem rgba(0, 0, 0, 0.5));
 	}
 }
