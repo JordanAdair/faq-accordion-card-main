@@ -74,7 +74,7 @@ hr {
 	background-color: white;
 	border-radius: 25px;
 	width: min(95vw, 24rem);
-	margin-top: 15%;
+	margin-top: 33%;
 	filter: drop-shadow(0 1rem 0.8rem rgba(0, 0, 0, 0.33));
 }
 
@@ -160,7 +160,7 @@ hr {
 }
 
 /* Desktop */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
 	/* Box */
 	.box-container {
 		position: relative;
@@ -176,6 +176,7 @@ hr {
 		flex-direction: row;
 		width: min(80vw, 60rem);
 		height: min(70vh, 33rem);
+		margin-top: 10%;
 	}
 
 	.main-container {
